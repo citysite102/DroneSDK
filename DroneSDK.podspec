@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.preserve_paths = "lib/*.a"
   s.ios.vendored_library = "lib/*.a"
 
-  s.libraries = “stdc++”, DroneSDK
   s.requires_arc = true
 
 end
